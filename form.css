@@ -18,8 +18,8 @@ body {
 	right: 0;
 	bottom: 0;
 	-webkit-filter: blur(1px);
-  filter: blur(1px);
-  opacity: 0.4;
+  filter: blur(1.5px);
+  opacity: 0.5;
 }
 
 .form-container {
