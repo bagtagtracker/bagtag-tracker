@@ -1,13 +1,14 @@
 
 body {
-	background-color: #000;
+	background-color:  #000000;
+
 }
 html,
 body {
 	height: 100%;
 }
 .imagebg {
-	background-image: url("images/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+	background-image: url("images/school.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -18,7 +19,7 @@ body {
 	right: 0;
 	bottom: 0;
 	-webkit-filter: blur(1px);
-  filter: blur(1.5px);
+  filter: blur(1px);
   opacity: 50%;
 }
 
@@ -107,18 +108,17 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     color: #ffffff;
 }
 .form-container .btn {
-    background-color: #B7202A;
+    background-color: transparent;
 
 }
 .submitbtn {
+	margin-top: 40px;
 	line-height: 48px;
-	display: block;
 	height: 48px;
 	width: 100%;
 	text-transform: none;
 	font-size: 18px;
 	font-weight: medium;
-	border-radius: 4px;
 	box-shadow: none;
 
 }
