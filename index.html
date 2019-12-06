@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CGU Bag Tag Tracker</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+    </head>
+    <body >
+        <div class="container">
+            <div class="imagebg"></div>
+            <img src="images/logo.png" alt="CGU Bag Tag" height="10%" width="10%" min-width="100px" class=logo">
+            <div class="container">
+                <div class="form-container z-depth-50">
+                    <img src="images/qr_code.png" alt="QR Code" height="36%" width="36%" margin-bottom="20px" class="center">
+                    <h3>Complete the information below to register your bag tag and create an account:</h3>
+                    <div class="row">
+                        <form class="col s12" id="reused_form">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name" type="text" name="name" required class="validate">
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="text" type="text" name="text" required class="validate">
+                                    <label for="text">Address</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="tel" type="number" name="tel" required class="validate">
+                                    <label for="tel">Phone</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" name="email" required class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="waves-effect waves-light btn submitbtn" type="submit">Submit</button>
+                            </div>
+                        </form>
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Error
+                            </h4>
+                            Sorry there was an error submitting your information.
+                        </div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Success! Your information was submited successfully. Check out your info by scanning your tag.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Import jQuery before materialize.js-->
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+        </div>
+    </body>
+</html>
