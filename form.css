@@ -19,7 +19,7 @@ body {
 	bottom: 0;
 	-webkit-filter: blur(1px);
   filter: blur(1.5px);
-  opacity: 100%;
+  opacity: none;
 }
 
 .form-container {
