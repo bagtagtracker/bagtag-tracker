@@ -1,6 +1,6 @@
 
 body {
-	background-color: none;
+	background-color: #0000;
 }
 html,
 body {
@@ -19,7 +19,7 @@ body {
 	bottom: 0;
 	-webkit-filter: blur(1px);
   filter: blur(1.5px);
-  opacity: none;
+  opacity: 50%;
 }
 
 .form-container {
