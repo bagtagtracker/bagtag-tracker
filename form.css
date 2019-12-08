@@ -5,6 +5,7 @@ body {
 html,
 body {
 	height: 100%;
+
 }
 .imagebg {
 	background-image: url("images/background1.png");
@@ -23,7 +24,8 @@ body {
 }
 
 .form-container {
-	width: 600px;
+	width: 40%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	/*margin-top:90px;
@@ -123,7 +125,8 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 
 }
 .center {
-  display: block;
+  margin-top: 10%;
+	display: block;
   margin-left: auto;
   margin-right: auto;
 }
