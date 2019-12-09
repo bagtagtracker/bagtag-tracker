@@ -162,6 +162,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
-		margin-top: 40px;
+		margin-top: 50px;
 	}
+
 }
