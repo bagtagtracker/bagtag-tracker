@@ -133,7 +133,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 .logo {
   position: absolute;
 	left: 8px;
-	top: 15px;
+	top: 10px;
 	height: 50px;
 	width: 100px;
 
@@ -159,7 +159,8 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 		-o-transform: translate(0, 0);
 		transform: translate(0, 0);
 		width: 100%;
-		margin-top: 70px;
-		margin-bottom: 20px;
+		height: 100%;
+		overflow: hidden;
+		margin-top: 50px;
 	}
 }
